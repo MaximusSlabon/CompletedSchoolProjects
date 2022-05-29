@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="itext7" Version="7.2.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HelpdeskViewModels\HelpdeskViewModels.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\employee.html" />
+    <None Include="wwwroot\home.html" />
+    <None Include="wwwroot\img\BigshotSmartypants.png" />
+    <None Include="wwwroot\img\BunsenBurner.png" />
+    <None Include="wwwroot\img\EmployeeBase64.txt" />
+    <None Include="wwwroot\img\FrankenBeans.png" />
+    <None Include="wwwroot\img\MopnGlow.png" />
+    <None Include="wwwroot\img\NewEmployee.png" />
+    <None Include="wwwroot\img\PennyPincher.png" />
+    <None Include="wwwroot\img\PetrieDish.png" />
+    <None Include="wwwroot\img\SamSlick.png" />
+    <None Include="wwwroot\img\SloppyJoe.png" />
+    <None Include="wwwroot\img\SmokeandMirrors.png" />
+    <None Include="wwwroot\img\SpicknSpan.png" />
+    <None Include="wwwroot\img\helpdeskbg.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\pdfs\" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,15 @@
+C:\CPA3\Info3070\CaseStudy\HelpdeskDAL\bin\Debug\net5.0\HelpdeskDAL.deps.json
+C:\CPA3\Info3070\CaseStudy\HelpdeskDAL\bin\Debug\net5.0\HelpdeskDAL.runtimeconfig.json
+C:\CPA3\Info3070\CaseStudy\HelpdeskDAL\bin\Debug\net5.0\HelpdeskDAL.runtimeconfig.dev.json
+C:\CPA3\Info3070\CaseStudy\HelpdeskDAL\bin\Debug\net5.0\HelpdeskDAL.dll
+C:\CPA3\Info3070\CaseStudy\HelpdeskDAL\bin\Debug\net5.0\HelpdeskDAL.pdb
+C:\CPA3\Info3070\CaseStudy\HelpdeskDAL\obj\Debug\net5.0\HelpdeskDAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\CPA3\Info3070\CaseStudy\HelpdeskDAL\obj\Debug\net5.0\HelpdeskDAL.AssemblyInfoInputs.cache
+C:\CPA3\Info3070\CaseStudy\HelpdeskDAL\obj\Debug\net5.0\HelpdeskDAL.AssemblyInfo.cs
+C:\CPA3\Info3070\CaseStudy\HelpdeskDAL\obj\Debug\net5.0\HelpdeskDAL.csproj.CoreCompileInputs.cache
+C:\CPA3\Info3070\CaseStudy\HelpdeskDAL\obj\Debug\net5.0\HelpdeskDAL.dll
+C:\CPA3\Info3070\CaseStudy\HelpdeskDAL\obj\Debug\net5.0\ref\HelpdeskDAL.dll
+C:\CPA3\Info3070\CaseStudy\HelpdeskDAL\obj\Debug\net5.0\HelpdeskDAL.pdb
+C:\CPA3\Info3070\CaseStudy\HelpdeskDAL\obj\Debug\net5.0\HelpdeskDAL.genruntimeconfig.cache
+C:\CPA3\Info3070\CaseStudy\HelpdeskDAL\obj\Debug\net5.0\HelpdeskDAL.csproj.AssemblyReference.cache
+C:\CPA3\Info3070\CaseStudy\HelpdeskDAL\obj\Debug\net5.0\refint\HelpdeskDAL.dll

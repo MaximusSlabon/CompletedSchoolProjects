@@ -1,0 +1,128 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Calls</title>
+    <meta charset="utf-8" />
+    <link href="lib/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/site.css" rel="stylesheet" />
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+
+<body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <a class="navbar-brand mx-3" href="#">Case #2</a>
+        <button class="navbar-toggler mx-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarContent">
+            <ul class="navbar-nav me-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/employee.html">Employee</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="/call.html">Calls</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/report.html">Report</a>
+                </li>
+            </ul>
+            <!--Search bar-->
+            <form>
+                <input class="form-control" type="search" placeholder="Search" id="srch" aria-label="Search" style="width:10vw;margin-right:5vw;" />
+            </form>
+        </div>
+    </nav>
+
+    <!--Employee icon and whatnot-->
+    <div class="justify-content-center align-items-center row mt-5 ml-1">
+        <p class="text-center"><img src="img/helpdeskbg.png" width="1000" height="400"></p>
+        <p class="text-center">v1.0</p>
+        <div class="col-12 text-center p-3"><h2>Calls</h2></div>
+        <div class="list-group col-10" id="callList" style="height:45vh;">
+        </div>
+    </div>
+    <!--Employee Form-->
+    <form id="CallModalForm" name="CallModalForm" method="post" action="">
+        <!--Modal-->
+        <div class="modal fade" id="myModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+             aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <!--Modal Content-->
+                <div class="modal-content">
+                    <!--Header components-->
+                    <div class="modal-header">
+                        <h2 class="modal-title" id="myModalLabel">Call Update</h2>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <!--Body components-->
+                    <div class="modal-body">
+                        <div class="mx-4 my-4">
+                            <!--Card and Components-->
+                            <div class="card">
+                                <!-- card header-->
+                                <div class="card-header text-center">
+                                    Call Information
+                                </div>
+                                <!-- card body-->
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-4">Problem:</div>
+                                        <div class="col-7">
+                                            <select id="ddlProblems" name="ddlProblems" class="form-control"> </select>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-4">Employee:</div>
+                                        <div class="col-7">
+                                            <select id="ddlEmployees" name="ddlEmployees" class="form-control"> </select>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-4">Technician</div>
+                                        <div class="col-7">
+                                            <select id="ddlTech" name="ddlTech" class="form-control"> </select>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-4">Date Opened:</div>
+                                        <div class="col-8"><label id="dateOpened"></label></div>
+                                    </div>
+                                    <div class="row" id="dateClosedDIV">
+                                        <div class="col-4">Date Closed:</div>
+                                        <div class="col-8"><label id="dateClosed"></label></div>
+                                    </div>
+                                    <div class="row" id="checkboxStatusDIV">
+                                        <div class="col-4">Close Call:</div>
+                                        <div class="col-8"><input type="checkbox" id="checkboxStatus" /></div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-4">Notes:</div>
+                                        <div class="text-left col-7">
+                                            <textarea id="TextBoxNotes" name="TextBoxNotes" class="mt-2 form-control"></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--card footer-->
+                        <div class="card-footer text-center">
+                            <input type="button" class="btn-secondary mt-3" value="" id="actionbutton" />
+                            <input type="button" class="btn-secondary mt-3" value="delete" id="deletebutton" />
+                            <div id="modalstatus" class="text-left mt-3 mb-2"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+    <script src="lib/js/jquery.min.js"></script>
+    <script src="lib/js/bootstrap.min.js"></script>
+    <script src="lib/js/jquery.validate.min.js"></script>
+    <script src="js/call.js"></script>
+</body>
+</html>

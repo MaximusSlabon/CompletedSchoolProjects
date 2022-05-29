@@ -1,0 +1,11 @@
+﻿div.error {
+    color: darkblue;
+    background-color: orangered;
+    padding: .25em .4em;
+    font-size: 100%;
+    font-weight: 700;
+    line-height: 1;
+    left: 200px;
+    vertical-align: baseline;
+    border-radius: .25rem;
+}
